@@ -1,2 +1,3 @@
-# boj-picker
-Baekjoon Online Judge Problem Picker
+# boj-solvedac
+
+Baekjoon Online Judge [Solved.ac](https://solved.ac/) CLI.
