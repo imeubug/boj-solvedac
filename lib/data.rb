@@ -36,5 +36,16 @@ class BOJData < Parser
   end
 
   def fetch_problems_data
+    level_min = 0
+    level_max = 30
+    for i in level_min..level_max do
+      path = "stats/problems/level#{i}.dat"
+      arr = IO.readlines(path)
+      # problem id, title
+      arr.each do |prob|
+        id, title = prob.chomp.split(',')
+        @@levels[i.to_s.to_sym][:prob][id.to_sym] = title
+      end
+    end
   end
 end
