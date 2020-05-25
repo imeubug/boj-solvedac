@@ -16,7 +16,7 @@ You need to have `curl` [installed](https://curl.haxx.se/) in your machine.
 
 **MacOSX**
 ```sh
-brew install curl
+$ brew install curl
 ```
 
 **Arch**:
