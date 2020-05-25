@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/boj-solvedac.svg)](https://badge.fury.io/rb/boj-solvedac)
 [![Ruby](https://img.shields.io/badge/Ruby-2.7.0-red)](#) 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmuicode%2Fonline-judge)](https://hits.seeyoufarm.com)
 
 Baekjoon Online Judge [Solved.ac](https://solved.ac/) CLI.
 
