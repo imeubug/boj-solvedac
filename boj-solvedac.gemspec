@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary       = "Baekjoon Online Judge - Solved.ac Command Line Interface tool"
   s.author        = ["Jione Eu"]
   s.files         = ['lib/boj-solvedac.rb', 'lib/data/data.rb']
-  s.homepage      = "https://rubygems.org/gems/boj-solvedac"
+  s.homepage      = "https://solved.ac/"
   s.license       = "MIT"
   s.metadata = {
     "documentation_uri" => "https://github.com/jioneeu/boj-solvedac"
