@@ -136,7 +136,6 @@ module BOJ
     end
 
     def command_help
-      # prob, stat, random, clear, help
       puts '''
       levels you can specify:
         unrated
