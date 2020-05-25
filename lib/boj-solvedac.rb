@@ -1,9 +1,8 @@
-require 'open-uri'
-require './data.rb'
+require 'data/data.rb'
 
 module BOJ
   class BOJSolvedAC < BOJData
-    def initialize(update=false)
+    def initialize()
       super(update)
       @prev = ''
       @levels = @@levels
@@ -175,7 +174,3 @@ module BOJ
     end
   end
 end
-
-update = false
-boj = BOJ::BOJSolvedAC.new(update)
-boj.start

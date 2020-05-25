@@ -1,8 +1,5 @@
-require './parser.rb'
-
-class BOJData < Parser
-  def initialize(update=false)
-    update_data if update
+class BOJData
+  def initialize()
     @@levels = {}
     fetch_data
   end
@@ -53,7 +50,8 @@ class BOJData < Parser
   end
 
   def fetch_solved_data
-    path = "stats/solved-problems.dat"
+    path = "./solved-problems.dat"
+    File.open("./solved-problems.dat", "r+")
     solved = IO.read(path).to_s.chomp.split(' ')
     solved_size = solved.size
     level_min = 0
