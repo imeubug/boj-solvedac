@@ -10,6 +10,25 @@ Baekjoon Online Judge [Solved.ac](https://solved.ac/) CLI.
 $ gem install boj-solvedac
 ```
 
+You need to have `curl` [installed](https://curl.haxx.se/) in your machine.
+
+**Windows**: see installation [here](http://www.confusedbycode.com/curl/#downloads)
+
+**MacOSX**
+```sh
+brew install curl
+```
+
+**Arch**:
+```sh
+$ sudo pacman -S curl
+```
+
+**Debian**:
+```sh
+$ sudo apt install curl
+```
+
 ## How to
 
 ### Getting the data
