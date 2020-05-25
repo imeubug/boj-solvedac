@@ -56,4 +56,4 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 ##### FOR JIONE EU
-/lib/parser.rb
+parser.rb
