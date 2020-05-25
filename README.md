@@ -1,4 +1,4 @@
-# boj-solvedac
+# [boj-solvedac](https://rubygems.org/gems/boj-solvedac)
 
 [![Ruby](https://img.shields.io/badge/Ruby-2.7.0-red)](#) 
 
@@ -42,11 +42,9 @@ These are levels you can specify for the command:
 -	diamond[5-1]
 -	ruby[5-1]
 
-'exit', 'quit'
--  terminate the program
+`exit`, `quit`: terminates the program
 
-`clear`
-- clears the screen
+`clear`: clears the screen
 
 prob
 - `prob [LEVEL]`: display all [LEVEL] problems
@@ -58,5 +56,5 @@ stat
 
 random
 - `random`        : randomly pick a problem from all levels
-- `random [LEVEL]`: randomly pick a problem from [LEVEL]
-\*Once you ran this command, You can hit [ENTER] to repeat the previous random command
+- `random [LEVEL]`: randomly pick a problem from [LEVEL]  
+\*Once you ran this command, simply hit [ENTER] to repeat the previous random command
