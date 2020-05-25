@@ -15,6 +15,7 @@ module BOJ
         "diamond5": "21", "diamond4": "22", "diamond3": "23", "diamond2": "24", "diamond1": "25",
         "ruby5": "26", "ruby4": "27", "ruby3": "28", "ruby2": "29", "ruby1": "30"
       }
+      system('clear')
     end
 
     def command(str)

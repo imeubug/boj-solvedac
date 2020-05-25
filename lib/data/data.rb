@@ -4,17 +4,6 @@ class BOJData
     fetch_data
   end
 
-=begin
-  #
-  # only used by [jione eu] to fetch the data from the web
-  #
-  def update_data(level=nil)
-    parse_levels(level)
-    parse_problems(level)
-  end
-=end
-
-  # read unsolved/solved from a file
   def fetch_data
     fetch_level_data
     fetch_problems_data
@@ -22,6 +11,13 @@ class BOJData
   end
 
   def fetch_level_data
+    puts "Feteching level stats..."
+    if !File::exists?("stats/level-stat.dat")
+      system("clear")
+      puts "'stats/level-stat.dat' does not exist... fetching"
+      system("mkdir stats 2> /dev/null")
+      system("curl -o stats/level-stat.dat https://raw.githubusercontent.com/jioneeu/boj-solvedac/master/lib/data/stats/level-stat.dat")
+    end
     stats = IO.readlines("stats/level-stat.dat")
     stats.each do |stat|
       stat = stat.split(',')
@@ -35,10 +31,17 @@ class BOJData
   end
 
   def fetch_problems_data
+    puts "fetching problems...."
+    system("mkdir stats/problems 2> /dev/null")
     level_min = 0
     level_max = 30
     for i in level_min..level_max do
       path = "stats/problems/level#{i}.dat"
+      if !File::exists?(path)
+        system("clear")
+        puts "'stats/problems/level#{i}.dat' does not exist... fetching"
+        system("curl -o stats/problems/level#{i}.dat https://raw.githubusercontent.com/jioneeu/boj-solvedac/master/lib/data/stats/problems/level#{i}.dat")
+      end
       arr = IO.readlines(path)
       # problem id, title
       arr.each do |prob|
@@ -50,8 +53,12 @@ class BOJData
   end
 
   def fetch_solved_data
-    path = "./solved-problems.dat"
-    File.open("./solved-problems.dat", "r+")
+    path = "stats/solved-problems.dat"
+    if !File::exists?(path)
+      puts "No solved data exists... skipping"
+      return
+    end
+    File.open("stats/solved-problems.dat", "r+")
     solved = IO.read(path).to_s.chomp.split(' ')
     solved_size = solved.size
     level_min = 0
