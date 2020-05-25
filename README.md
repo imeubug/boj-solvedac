@@ -27,8 +27,8 @@ boj.start
 
 This process will be skipped automatically if you already have `stats/` directory.
 
-### Add solved problems
-Create a file `stats/problem-solved.dat` and copy-and-paste your solved problem(푼 문제) 
+### Add solved problems data
+Create a file `stats/solved-problems.dat` and copy-and-paste your solved problem(푼 문제) 
 from [Baekjoon Online Judge](https://www.acmicpc.net).
 
 ### Commands
