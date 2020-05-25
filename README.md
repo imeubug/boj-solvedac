@@ -1,5 +1,6 @@
 # [boj-solvedac](https://rubygems.org/gems/boj-solvedac)
 
+[![Gem Version](https://badge.fury.io/rb/boj-solvedac.svg)](https://badge.fury.io/rb/boj-solvedac)
 [![Ruby](https://img.shields.io/badge/Ruby-2.7.0-red)](#) 
 
 Baekjoon Online Judge [Solved.ac](https://solved.ac/) CLI.
