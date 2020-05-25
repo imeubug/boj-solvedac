@@ -1,6 +1,4 @@
-require 'net/http'
-require 'json'
-
+require 'open-uri'
 require './data.rb'
 
 module BOJ
@@ -35,25 +33,16 @@ module BOJ
       when 'clear' then system('clear')
       when 'help' then command_help
       when /exit|quit/ then exit(1)
-      else
-        puts "'#{command}' not found... try 'help'"
+      else 
+        if command
+          puts "'#{command}' not found... try 'help'"
+        end
       end
-
-      ##### open a problem from a certain level
-      # open random  ---> random problem
-      # open [certain level] <prob. number>
-      # open [certain level] <random>
-      #
-      ##### update your solved problem data
-      # solved <number>    -----> this appends that number to your data; you should update it by yourself
-      # 
-      #### remove a problem that you mistakenly put
-      # remove <number>
     end
 
     def command_stat(level)
+      @prev = ''
       if level == "all"
-        system('clear')
         puts "%-10s %8s %8s %8s" % ["Level", "Unsolved", "Solved", "Total"]
         @stats.each_pair do |k, v|
           stat = @levels[v.to_sym]
@@ -62,7 +51,7 @@ module BOJ
       elsif %w(bronze silver gold platinum diamond ruby).include? level
         5.downto(1) do |i|
           stat = @levels[@stats[(level+(i.to_s)).to_sym].to_sym]
-          puts "%-10s unsolved(%s) solved(%s) total(%s)" % [level+(i.to_s), stat[:unsolved], stat[:solved], stat[:total]]
+          puts "%-10s unsolved(%3s) solved(%3s) total(%3s)" % [level+(i.to_s), stat[:unsolved], stat[:solved], stat[:total]]
         end
       else
         if !level or !@stats[level.to_sym]
@@ -70,27 +59,56 @@ module BOJ
           return
         end
         stat = @levels[@stats[level.to_sym].to_sym]
-        puts "%-10s unsolved(%s) solved(%s) total(%s)" % [level, stat[:unsolved], stat[:solved], stat[:total]]
+        puts "%-10s unsolved(%3s) solved(%3s) total(%3s)" % [level, stat[:unsolved], stat[:solved], stat[:total]]
       end
     end
 
-    def command_prob(level)
-      if !level or level.empty? or !@stats[level.to_sym]
-        puts "'#{level}' level does not exist.."
+    def command_prob(op)
+      @prev = ''
+      if !op or op.empty? or (op!="solved" and !@stats[op.to_sym])
+        puts "'#{op}' op does not exist.."
         return
       end
-      system('clear')
+
       puts "%-10s %-15s" % ["ID", "Title"]
-      list = @levels[@stats[level.to_sym].to_sym][:prob]
-      size = list.size
-      i = 0
-      list.each_pair do |k, v|
-        puts "%-10s %-15s" % [k, v]
-        i += 1
-        if (i+1)%15 == 0
-          print("..... (#{i}/#{size}) [q=quit] ") 
-          q = gets.chomp
-          break if q=='q'
+
+      if op == "solved"
+        level_min = 0
+        level_max = 30
+        solved = {}
+
+        for i in level_min..level_max do
+          probs = @levels[i.to_s.to_sym][:prob] # id = {title, solved}
+          probs.each_pair do |k, v|
+            if v[:solved]
+              solved[k.to_s.to_i] = {level: @stats.keys[i], title: v[:title]}
+            end
+          end
+        end
+
+        solved = solved.sort
+        i = 0
+        solved.each do |prob|
+          puts "%-10s%-10s%-15s" % [prob[1][:level], prob[0], prob[1][:title]]
+          i+=1
+          if (i+1)%10 == 0
+            print("..... [q=quit] ") 
+            q = gets.chomp
+            break if q=='q'
+          end
+        end
+      else
+        list = @levels[@stats[op.to_sym].to_sym][:prob]
+        size = list.size
+        i = 0
+        list.each_pair do |k, v|
+          puts "%-10s %-15s" % [k, v[:title]]
+          i += 1
+          if (i+1)%15 == 0
+            print("..... (#{i}/#{size}) [q=quit] ") 
+            q = gets.chomp
+            break if q=='q'
+          end
         end
       end
       puts "----------------------\n"
@@ -108,7 +126,7 @@ module BOJ
       end
 
       id    = problems.keys[rand(problems.size)]
-      title = problems[id]
+      title = problems[id][:title]
 
       puts
       puts "Level: #{level_str}"
@@ -132,18 +150,21 @@ module BOJ
       Commands:
         prob:
              prob [LEVEL] --> display all [LEVEL] problems
+             prob solved  --> display all solved problems by ID
         stat:
-             stat [LEVEL | all] --> display unsolved/solved/total stats
+             stat [LEVEL | all] --> display [LEVEL]\'s or all levels
+                                    unsolved/solved/total stats
         random:
              random         --> randomly pick a problem from all levels
              random [LEVEL] --> randomly pick a problem from [LEVEL]
+             * hit [ENTER] to repeat the previous \'random\' command
         clear:
              clear --> clears the screen
         exit:
              exit --> terminate the program
         quit:
              alias to \'exit\'
-      '''
+             '''
     end
 
     def start

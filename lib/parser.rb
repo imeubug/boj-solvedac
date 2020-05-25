@@ -1,3 +1,6 @@
+require 'net/http'
+require 'json'
+
 class Parser
   # level = nil   -> update all levels
   def parse_levels(level)
