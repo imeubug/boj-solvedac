@@ -3,7 +3,7 @@ require 'data/data.rb'
 module BOJ
   class BOJSolvedAC < BOJData
     def initialize()
-      super(update)
+      super()
       @prev = ''
       @levels = @@levels
       @stats = {

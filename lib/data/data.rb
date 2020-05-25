@@ -22,7 +22,7 @@ class BOJData
   end
 
   def fetch_level_data
-    stats = IO.readlines("stats/levels/level-stat.dat")
+    stats = IO.readlines("stats/level-stat.dat")
     stats.each do |stat|
       stat = stat.split(',')
       level    = stat[0]
