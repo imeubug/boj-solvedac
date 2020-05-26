@@ -124,8 +124,17 @@ module BOJ
         problems = @levels[level.to_sym][:prob]
         level_str = @stats.keys[level.to_i]
       end
+      
+      unsolved = []
+      problems.each_pair do |k, v|
+        unsolved.push(k) if v[:solved] == false 
+      end
 
-      id    = problems.keys[rand(problems.size)]
+      if unsolved.size == 0
+        puts "You solved every problems in '#{level_str}'"
+        return
+      end
+      id = unsolved[rand(unsolved.size)]
       title = problems[id][:title]
 
       puts
