@@ -76,6 +76,9 @@ stat
 - `stat [LEVEL]`: display [LEVEL]'s unsolved/solved/total stats
 - `stat all`    : display all level's unsolved/solved/total stats
 
+solved
+- `solved [ID]`: adds [ID] to `solved-problems.dat`.
+
 random
 - `random`        : randomly pick a problem from all levels
 - `random [LEVEL]`: randomly pick a problem from [LEVEL]  

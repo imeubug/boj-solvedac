@@ -30,6 +30,7 @@ module BOJ
       when 'stat' then command_stat(level)
       when 'prob' then command_prob(level)
       when 'random' then command_random(level)
+      when 'solved' then command_solved(level)
       when 'clear' then system('clear')
       when 'help' then command_help
       when /exit|quit/ then exit(1)
@@ -144,6 +145,17 @@ module BOJ
       puts
     end
 
+    def command_solved(id)
+      path = 'stats/solved-problems.dat'
+      File.open(path, 'w') # create one if one doesn't exist
+      problems = IO.read(path).chomp
+      problems += " #{id}"
+      File.open(path, "w") do |f|
+        f.puts problems
+      end
+      fetch_solved_data
+    end
+
     def command_help
       puts '''
       levels you can specify:
@@ -166,6 +178,9 @@ module BOJ
              random         --> randomly pick a problem from all levels
              random [LEVEL] --> randomly pick a problem from [LEVEL]
              * hit [ENTER] to repeat the previous \'random\' command
+        solved:
+             solved [ID] --> adds [ID] to \'solved-problems.dat\' and
+                             updates the stat.
         clear:
              clear --> clears the screen
         exit:

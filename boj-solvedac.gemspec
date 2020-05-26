@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "boj-solvedac"
-  s.version       = "0.2.1"
+  s.version       = "0.3.0"
   s.date          = "2020-05-27"
   s.summary       = "Baekjoon Online Judge - Solved.ac Command Line Interface tool"
   s.author        = ["Jione Eu"]
@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
     "documentation_uri" => "https://github.com/jioneeu/boj-solvedac"
   }
   s.description = <<-EOF
-  version 0.2.0 -> `random` selects unsolved problem only.
+  version 0.3.x -> 'solved [ID]' method added. 
   EOF
 end
