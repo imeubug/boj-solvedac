@@ -6,6 +6,8 @@
 
 Baekjoon Online Judge [Solved.ac](https://solved.ac/) CLI.
 
+![Example gif](./example.gif)
+
 ## Installation
 ```
 $ gem install boj-solvedac
