@@ -5,7 +5,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjioneeu%2Fboj-solvedac)](https://hits.seeyoufarm.com)
 
 Baekjoon Online Judge [Solved.ac](https://solved.ac/) CLI.
-
+ 
 ![Example gif](./example.gif)
 
 ## 설치
@@ -82,3 +82,6 @@ random
 -	diamond[5-1]
 -	ruby[5-1]
 
+## Note 
+
+<b>`stat/`의 문제 데이터들은 일정한 주기로 제가 solved.ac를 보며 문제들을 직접 수정/추가합니다. 추후에 `update` 또는 비슷한 명령어를 추가하여 `stats/` 를 업데이트 가능하도록 만들 예정입니다. </b>
