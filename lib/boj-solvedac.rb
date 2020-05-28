@@ -1,4 +1,5 @@
 require 'data/data.rb'
+require 'colorize/colorize.rb'
 
 module BOJ
   class BOJSolvedAC < BOJData
@@ -44,15 +45,15 @@ module BOJ
     def command_stat(level)
       @prev = ''
       if level == "all"
-        puts "%-10s %8s %8s %8s" % ["Level", "Unsolved", "Solved", "Total"]
+        puts "%-12s%8s%8s%8s" % ["Level", "Unsolved", "Solved", "Total"]
         @stats.each_pair do |k, v|
           stat = @levels[v.to_sym]
-          puts "%-10s %8s %8s %8s" % [k, stat[:unsolved], stat[:solved], stat[:total]]
+          puts "%-17s%10s%8s%8s" % [color(k), stat[:unsolved], stat[:solved], stat[:total]]
         end
       elsif %w(bronze silver gold platinum diamond ruby).include? level
         5.downto(1) do |i|
           stat = @levels[@stats[(level+(i.to_s)).to_sym].to_sym]
-          puts "%-10s unsolved(%3s) solved(%3s) total(%3s)" % [level+(i.to_s), stat[:unsolved], stat[:solved], stat[:total]]
+          puts "%-15s unsolved(%3s) solved(%3s) total(%3s)" % [color(level+(i.to_s)), stat[:unsolved], stat[:solved], stat[:total]]
         end
       else
         if !level or !@stats[level.to_sym]
@@ -60,7 +61,7 @@ module BOJ
           return
         end
         stat = @levels[@stats[level.to_sym].to_sym]
-        puts "%-10s unsolved(%3s) solved(%3s) total(%3s)" % [level, stat[:unsolved], stat[:solved], stat[:total]]
+        puts "%-15s unsolved(%3s) solved(%3s) total(%3s)" % [color(level), stat[:unsolved], stat[:solved], stat[:total]]
       end
     end
 
@@ -71,7 +72,7 @@ module BOJ
         return
       end
 
-      puts "%-10s %-15s" % ["ID", "Title"]
+      puts "%-10s %-10s %-15s" % ["Level", "ID", "Title"]
 
       if op == "solved"
         level_min = 0
@@ -90,7 +91,7 @@ module BOJ
         solved = solved.sort
         i = 0
         solved.each do |prob|
-          puts "%-10s%-10s%-15s" % [prob[1][:level], prob[0], prob[1][:title]]
+          puts "%-15s%-10s%-15s" % [color(prob[1][:level]), prob[0], prob[1][:title]]
           i+=1
           if (i+1)%10 == 0
             print("..... [q=quit] ") 
@@ -99,6 +100,7 @@ module BOJ
           end
         end
       else
+        puts "%-10s %-15s" % ["ID", "Title"]
         list = @levels[@stats[op.to_sym].to_sym][:prob]
         size = list.size
         i = 0
@@ -116,14 +118,21 @@ module BOJ
     end
 
     def  command_random(level)
-      problems = @levels[@stats[level.to_sym].to_sym][:prob] unless level==nil
-      level_str = level
-
       if level == nil
         max_level = 31
         level = rand(max_level).to_s
         problems = @levels[level.to_sym][:prob]
         level_str = @stats.keys[level.to_i]
+      elsif %w(bronze silver gold platinum diamond ruby).include? level
+        level_str = level + (rand(5)+1).to_s
+        problems = @levels[@stats[level_str.to_sym].to_sym][:prob]
+        lever_str = @stats.keys[level.to_i]
+      elsif @stats[level.to_sym] == nil
+        puts "'#{level}' level does not exist.."
+        return
+      else
+        problems = @levels[@stats[level.to_sym].to_sym][:prob] unless level==nil
+        level_str = level
       end
       
       unsolved = []
@@ -132,15 +141,15 @@ module BOJ
       end
 
       if unsolved.size == 0
-        puts "You solved every problems in '#{level_str}'"
+        puts "You solved every problems in '#{color(level_str)}'"
         return
       end
       id = unsolved[rand(unsolved.size)]
       title = problems[id][:title]
 
       puts
-      puts "Level: #{level_str}"
-      puts "ID   : #{id} (https://www.acmicpc.net/problem/#{id})"
+      puts "Level: #{color(level_str)}"
+      puts "ID   : #{id} (https://www.acmicpc.net/problem/#{id})".default
       puts "Title: #{title}"
       puts
     end
@@ -192,7 +201,7 @@ module BOJ
 
     def start
       while true do
-        print("boj-solvedac>  ")
+        print "%s" % "boj-solvedac>  ".default
         command(gets.chomp)
       end
     end
