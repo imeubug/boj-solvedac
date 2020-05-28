@@ -15,8 +15,8 @@ $ gem install boj-solvedac
 ```
 
 ### curl
-`curl`의 설치가 불가능한 경우, 해당 디렉토리를 클론한 후 `lib/data/stats/`를 `boj-solvedac`를 실행할 
-디렉토리 최상단에 위치시킨다.
+`curl`의 설치가 불가능한 경우, 해당 디렉토리를 클론한 후 `lib/data/stats/`을   
+`boj-solvedac`를 실행 할 디렉토리 최상단에 옮겨준다.
 
 **Windows**: 
 윈도우에서의 설치는 [여기](http://www.confusedbycode.com/curl/#downloads)를 참조.
@@ -48,8 +48,8 @@ boj = BOJ::BOJSolvedAC.new
 boj.start
 ```
 
-처음 프로그램을 실행할 경우, `stats/` 디렉토리를 찾는다. 만약 이 디렉토리가 없는 경우 `lib/data/stats/`을
-`curl` 사용해 가져오게 된다. 
+처음 프로그램을 실행할 경우, `stats/` 디렉토리를 찾는다. 만약 이 디렉토리가 없는 경우 `lib/data/stats/`의 자료를
+`curl`을 사용해 가져온다.
 
 ### 명령어
 - `exit` or `quit`: 프로그램을 종료
@@ -68,7 +68,7 @@ solved
 
 random
 - `random`        : 풀지 않은 문제를 무작위로 하나 출력
-- `random [LEVEL]`: 풀지 않은 [LEVEL]의 문제를 무작위로 하나 출력
+- `random [LEVEL]`: 풀지 않은 [LEVEL]의 문제를 무작위로 하나 출력  
 \*random 명령어를 실행한 후, [엔터]키를 누르면 이전 random 명령어가 반복된다.
 
 [LEVEL]에 사용가능한 명령어:
