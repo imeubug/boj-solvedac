@@ -60,8 +60,10 @@ prob
 - `prob solved` : 푼 문제들(`solved-problem.dat`)을 ID순으로 출력
 
 stat
-- `stat [LEVEL]`: [LEVEL]의 unsolved/solved/total 수치를 출력
 - `stat all`    : 모든 레벨의 unsolved/solved/total 수치를 출력
+- `stat [LEVEL]`: [LEVEL]의 unsolved/solved/total 수치를 출력
+  + stat bronze5: bronze5 레벨의 수치 출력
+  + stat bronze : 모든 bronze 레벨들의 수치를 출력 (bronze5, 4, ..., 1)
 
 solved
 - `solved [ID]`: 푼 문제(`solved-problems.dat`) 파일에 [ID]를 추가
