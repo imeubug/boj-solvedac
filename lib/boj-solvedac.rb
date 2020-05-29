@@ -72,9 +72,8 @@ module BOJ
         return
       end
 
-      puts "%-10s %-10s %-15s" % ["Level", "ID", "Title"]
-
       if op == "solved"
+        puts "%-10s %-10s %-15s" % ["Level", "ID", "Title"]
         level_min = 0
         level_max = 30
         solved = {}
@@ -156,10 +155,10 @@ module BOJ
 
     def command_solved(id)
       path = 'stats/solved-problems.dat'
-      File.open(path, 'w') # create one if one doesn't exist
+      File.open(path, 'r+') # create one if one doesn't exist
       problems = IO.read(path).chomp
       problems += " #{id}"
-      File.open(path, "w") do |f|
+      File.open(path, "r+") do |f|
         f.puts problems
       end
       fetch_solved_data

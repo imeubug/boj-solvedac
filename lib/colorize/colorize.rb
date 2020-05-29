@@ -8,8 +8,8 @@ class String
   end
 
   def unrated
-    # red
-    color_code(31)
+    # magenta
+    color_code(35)
   end
 
   def bronze
@@ -18,8 +18,8 @@ class String
   end
 
   def silver
-    # white
-    color_code(97)
+    # light grey
+    color_code(37)
   end
 
   def gold
@@ -38,8 +38,8 @@ class String
   end
 
   def ruby
-    # magenta
-    color_code(35)
+    # red
+    color_code(31)
   end
 end
 

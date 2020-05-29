@@ -74,7 +74,7 @@ class BOJData
         end
       end
       @@levels[i.to_s.to_sym][:solved] = solved_prob
-      @@levels[i.to_s.to_sym][:unsolved] = ((@@levels[i.to_s.to_sym][:unsolved].to_i) - solved_prob).to_s
+      @@levels[i.to_s.to_sym][:unsolved] = ((@@levels[i.to_s.to_sym][:total].to_i) - solved_prob).to_s
 
       break if solved_prob == solved_size
     end
