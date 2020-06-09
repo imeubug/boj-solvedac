@@ -1,76 +1,81 @@
-2430,거울대칭트리그래프
-3836,CoinCollecting
-4212,최단비행경로
-4218,칩설계
+2430,거울대칭트리 그래프
+3836,Coin Collecting
+4212,최단 비행 경로
+4218,칩 설계
+4456,Stupendous Man
 4786,CosmoCraft
-5004,파워블로거
+5004,파워 블로거
 6293,Vim
 7139,Toll
-8171,AlgorithmSpeedup
+8171,Algorithm Speedup
 8496,Godzilla
-9581,CactusAutomorphisms
+9581,Cactus Automorphisms
 10125,Snake
-10446,AlgoristClub
-10629,ProportionalRepresentation
-10667,HashigoSama
+10446,Algorist Club
+10629,Proportional Representation
+10667,Hashigo Sama
 10842,여왕벌
 11002,까마귀
 11714,Midpoint
-11793,SunlightonaTree
+11793,Sunlight on a Tree
 12827,Posters
 13362,Interception
-13409,BlackandWhiteBoxes
-13480,HardCuts
-15767,Circleselection
-16046,RainbowGraph
-16254,ArrayCovering
-16364,SimplePolygon
-16365,SquareRoot
-16646,GamewithPolynomials
+13409,Black and White Boxes
+13480,Hard Cuts
+14347,Radioactive Islands (Large)
+14558,Too Many Traps
+15767,Circle selection
+16046,Rainbow Graph
+16254,Array Covering
+16364,Simple Polygon
+16365,Square Root
+16646,Game with Polynomials
 16661,Bimatching
-16663,DistanceSum
-16667,HarderSatisfiability
-16668,Interval-FreePermutations
-16718,LoveTriangles
+16663,Distance Sum
+16668,Interval-Free Permutations
+16718,Love Triangles
 16784,Golf
-17032,MowingMischief
-17160,TrafficBlights
-17172,DijkstraIsPlayingAtMyHouse
-17405,피보나치수의최대공약수의합처럼보이지만...
-17458,GoodSet
-17475,수열과쿼리27
-17477,수열과쿼리29
-17646,제곱수의합2(MoreHuge)
-17695,ArrangingTickets
-17824,아폴로니안네트워크
+17032,Mowing Mischief
+17160,Traffic Blights
+17172,Dijkstra Is Playing At My House
+17405,피보나치 수의 최대공약수의 합처럼 보이지만...
+17458,Good Set
+17475,수열과 쿼리 27
+17477,수열과 쿼리 29
+17646,제곱수의 합 2 (More Huge)
+17695,Arranging Tickets
+17824,아폴로니안 네트워크
 18051,Antennas
-18440,LCS7
-18447,AngleBeats
-18461,DisjointLIS
-18527,AllKill
+18440,LCS 7
+18447,Angle Beats
+18461,Disjoint LIS
+18527,All Kill
 18565,Innocence
-18576,HumongousString
-18592,SupportorNot
-18594,ThreeInvestigators
-18598,MinimumSpanningTrees
-18612,MagicStrings
+18576,Humongous String
+18592,Support or Not
+18594,Three Investigators
+18598,Minimum Spanning Trees
+18612,Magic Strings
 18620,Bulbasaur
 18622,Dedenne
 18624,Flaaffy
 18630,Lati@s
-18662,AlexeytheSageofTheSixPaths
+18662,Alexey the Sage of The Six Paths
 18749,Hit
-18754,BitsetMaster
-18756,DataStructureQuiz
-18762,JunkProblem
-18794,트리와쿼리15
+18754,Bitset Master
+18756,Data Structure Quiz
+18762,Junk Problem
+18794,트리와 쿼리 15
 18803,방역
-18804,대안적사실
-18806,와일드카드
+18804,대안적 사실
+18806,와일드 카드
 18890,Seollal
 18893,남현욱
-18918,피보나치수의최대공약수의합처럼보이지만...×25
-18932,트리와쿼리16
-18933,최소스패닝트리와쿼리
-18934,YetAnotherProblemonEmpodia
-18943,지역꾸미기게임
+18918,피보나치 수의 최대공약수의 합처럼 보이지만... ×25
+18932,트리와 쿼리 16
+18933,최소 스패닝 트리와 쿼리
+18934,Yet Another Problem on Empodia
+18943,지역 꾸미기 게임
+18945,조작된 ㄱ 폭탄 게임
+19028,Link Cut Digraph
+19225,Help BerLine

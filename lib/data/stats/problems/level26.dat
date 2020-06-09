@@ -7,124 +7,130 @@
 5979,납땜하기
 8140,Trees
 8197,Lamp
-8406,피보나치단어
+8406,피보나치 단어
 8874,웜뱃
-8878,Hey,BetterBettor
-8887,UpaTree
+8878,Hey, Better Bettor
+8887,Up a Tree
 9539,Escape
 9582,Dictionary
 10005,Maze
-10032,CodeBreaking
+10032,Code Breaking
 10049,切り取り線
 10050,블록
 10057,Pachinko
-10058,센서네트워크
-10135,Solarlamps
+10058,센서 네트워크
+10135,Solar lamps
 10339,Exhibition
-10591,CactusGenerator
-10724,판게아2
-10727,룩과구슬
-10735,\(I\)교신자3
+10591,Cactus Generator
+10724,판게아 2
+10727,룩과 구슬
+10735,\(I\)교신자 3
 10790,달리기
-10910,Randomsignals
-10912,Thelastwizard
-11395,쿼터너리컴퓨터
-11398,흑백이미지찾기
-11476,KingdomTrip
-11553,PyramidBase3
-11624,LoopingLabyrinth
-11742,Hypercube
-11743,IcebergOrders
-11757,Min-MaxDistanceGame
-11852,Roundwords
+10910,Random signals
+10912,The last wizard
+11075,Who Do You Think You Are?
+11395,쿼터너리 컴퓨터
+11398,흑백 이미지 찾기
+11476,Kingdom Trip
+11553,Pyramid Base 3
+11624,Looping Labyrinth
+11743,Iceberg Orders
+11757,Min-Max Distance Game
+11852,Round words
 11879,PODNIZOVI
 12736,Fireworks
-12770,LongestRivers
-12774,SpinDoctor
+12770,Longest Rivers
+12774,Spin Doctor
 13182,제비
-13516,트리와쿼리7
-13574,수열변환
-14346,RadioactiveIslands(Small)
+13516,트리와 쿼리 7
+13574,수열 변환
+14346,Radioactive Islands (Small)
 14850,doju
-14883,NPM998244353(Hard)
-15134,DividingMarbles
-15260,CumulativeCode
-15262,EmbeddingEnumeration
+14883,NPM998244353 (Hard)
+15134,Dividing Marbles
+15260,Cumulative Code
+15262,Embedding Enumeration
 15336,Homework
 15417,Kabobs
-15584,CowatLarge(Platinum)
-15692,GemIsland
-15695,PandaPreserve
-15941,TV동물농장
-16002,조용한생활관만들기
-16003,자석장난감
-16029,Fibonaccirepresentations
-16045,ProbeDroids
-16231,내가그린라이언그림
+15584,Cow at Large (Platinum)
+15692,Gem Island
+15695,Panda Preserve
+15941,TV 동물 농장
+16002,조용한 생활관 만들기
+16003,자석 장난감
+16029,Fibonacci representations
+16045,Probe Droids
+16231,내가 그린 라이언 그림
 16243,Teoretičar
+16667,Harder Satisfiability
 16746,Four-Coloring
-16792,CatsorDogs
+16792,Cats or Dogs
 16793,Collapse
-16807,KuruKuruSushi
-16841,CellularAutomaton
-16984,UniqueCities
-17336,HiringEmployees
+16807,Kuru Kuru Sushi
+16841,Cellular Automaton
+16984,Unique Cities
+17282,Grid Query 2
+17336,Hiring Employees
 17375,컨테이너
 17379,땅다람쥐
-17380,죽은선인장의사회
+17380,죽은 선인장의 사회
 17426,Channel
-17473,수열과쿼리25
-17518,WindofChange
+17473,수열과 쿼리 25
+17518,Wind of Change
 17590,Prospecting
-17640,BuildingSkyscrapers
-17665,TripleJump
-17667,VirusExperiment
-17691,WildBoar
+17640,Building Skyscrapers
+17665,Triple Jump
+17667,Virus Experiment
+17691,Wild Boar
 17694,Sparklers
-17697,RailwayTrip
+17697,Railway Trip
 17711,Sushi
 17723,AAQQZ
-17781,수열과쿼리32
-17961,수열과쿼리35
-18046,TheGreatDroneShow
-18136,다이버전스미터
-18157,수열과쿼리36
-18190,촛불과그림자
-18215,HaltingProblem
-18254,쿼리와쿼리
-18372,트리와쿼리14
-18374,함수의맛
+17781,수열과 쿼리 32
+17961,수열과 쿼리 35
+18046,The Great Drone Show
+18136,다이버전스 미터
+18157,수열과 쿼리 36
+18190,촛불과 그림자
+18215,Halting Problem
+18254,쿼리와 쿼리
+18372,트리와 쿼리 14
+18374,함수의 맛
 18424,Matching
-18439,LCS6
-18441,제곱부분문자열
-18456,JealousSplit
-18464,GiantPenguin
-18465,HorribleCycles
-18473,FastSpanningTree
-18480,FourElements
-18517,PickYourOwnNim
-18528,GridGuardian
-18544,IncomparablePairs
-18553,StringTransformation
-18556,CounttheSequences
-18559,CallItWhatYouWant
-18566,JustSoYouKnow
-18574,FractionalXORMaximization
-18588,MilkCandy
-18595,RoadManager
-18597,GamePrediction
-18599,LineGraphs
-18614,CosmicCrossroads
-18627,DresstoImpress
-18650,EraseNodes
+18439,LCS 6
+18441,제곱 부분문자열
+18445,우체국 4
+18456,Jealous Split
+18464,Giant Penguin
+18465,Horrible Cycles
+18473,Fast Spanning Tree
+18480,Four Elements
+18517,Pick Your Own Nim
+18528,Grid Guardian
+18544,Incomparable Pairs
+18553,String Transformation
+18556,Count the Sequences
+18559,Call It What You Want
+18566,Just So You Know
+18574,Fractional XOR Maximization
+18588,Milk Candy
+18595,Road Manager
+18596,Monster Hunter
+18597,Game Prediction
+18599,Line Graphs
+18614,Cosmic Crossroads
+18627,Dress to Impress
+18650,Erase Nodes
 18730,Outlier
 18743,Bin
-18755,CyclicDistance
-18760,HeavyStones
-18792,N의배수(3)
-18796,이동하기4
+18755,Cyclic Distance
+18760,Heavy Stones
+18792,N의 배수 (3)
+18796,이동하기 4
 18801,댐
-18844,Ruins3
+18844,Ruins 3
 18873,Circus
-18889,NewYearandSocialNetwork
-18911,EasiestSum
+18889,New Year and Social Network
+18911,Easiest Sum
+19220,Cactus Revenge
+19224,Game Relics

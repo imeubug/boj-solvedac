@@ -1,440 +1,445 @@
-1011,FlymetotheAlphaCentauri
-1012,유기농배추
+1011,Fly me to the Alpha Centauri
+1012,유기농 배추
 1013,Contact
-1025,제곱수찾기
+1025,제곱수 찾기
 1041,주사위
 1052,물병
 1068,트리
 1074,Z
-1138,한줄로서기
+1138,한 줄로 서기
 1141,접두사
-1148,단어만들기
 1149,RGB거리
-1188,음식평론가
+1188,음식 평론가
 1189,컴백홈
-1245,농장관리
-1254,팰린드롬만들기
-1260,DFS와BFS
-1263,시간관리
-1303,전쟁-전투
+1245,농장 관리
+1254,팰린드롬 만들기
+1260,DFS와 BFS
+1263,시간 관리
+1303,전쟁 - 전투
 1309,동물원
 1358,하키
-1364,울타리치기
-1389,케빈베이컨의6단계법칙
-1451,직사각형으로나누기
-1456,거의소수
+1364,울타리 치기
+1389,케빈 베이컨의 6단계 법칙
+1451,직사각형으로 나누기
+1456,거의 소수
 1461,도서관
 1495,기타리스트
-1500,최대곱
-1527,금민수의개수
-1612,가지고노는1
-1614,영식이의손가락
-1622,공통순열
+1500,최대 곱
+1527,금민수의 개수
+1612,가지고 노는 1
+1614,영식이의 손가락
+1622,공통 순열
 1629,곱셈
-1640,동전뒤집기
-1669,멍멍이쓰다듬기
-1684,같은나머지
-1687,행렬찾기
+1640,동전 뒤집기
+1669,멍멍이 쓰다듬기
+1684,같은 나머지
+1687,행렬 찾기
 1697,숨바꼭질
-1722,순열의순서
-1729,이차원배열의합
-1743,음식물피하기
+1722,순열의 순서
+1729,이차원 배열의 합
+1743,음식물 피하기
 1757,달려달려
-1790,수이어쓰기2
+1790,수 이어 쓰기 2
 1793,타일링
-1795,정상회담
-1817,짐챙기는숌
-1863,스카이라인쉬운거
+1795,정상 회담
+1817,짐 챙기는 숌
+1863,스카이라인 쉬운거
 1926,그림
-1927,최소힙
-1932,정수삼각형
-1946,신입사원
+1927,최소 힙
+1932,정수 삼각형
+1946,신입 사원
 1953,팀배분
 1986,체스
-1991,트리순회
+1991,트리 순회
 1992,쿼드트리
 2011,암호코드
-2016,미팅주선하기
+2016,미팅 주선하기
 2019,다각형개수
 2022,사다리
-2036,수열의점수
+2036,수열의 점수
 2091,동전
 2141,우체국
-2156,포도주시식
-2168,타일위의대각선
-2178,미로탐색
-2179,비슷한단어
-2224,명제증명
-2240,자두나무
+2156,포도주 시식
+2168,타일 위의 대각선
+2178,미로 탐색
+2179,비슷한 단어
+2224,명제 증명
 2251,물통
 2258,정육점
-2262,토너먼트만들기
-2293,동전1
-2294,동전2
-2295,세수의합
-2313,보석구매하기
-2343,기타레슨
-2410,2의멱수의합
+2262,토너먼트 만들기
+2293,동전 1
+2294,동전 2
+2295,세 수의 합
+2313,보석 구매하기
+2343,기타 레슨
+2410,2의 멱수의 합
 2421,저금통
-2447,별찍기-10
-2468,안전영역
-2502,떡먹는호랑이
+2447,별 찍기 - 10
+2468,안전 영역
+2502,떡 먹는 호랑이
 2527,직사각형
-2531,회전초밥
+2531,회전 초밥
+2564,경비원
 2565,전깃줄
-2571,색종이-3
+2571,색종이 - 3
 2575,수열
-2583,영역구하기
+2583,영역 구하기
 2591,숫자카드
-2608,로마숫자
-2617,구슬찾기
+2608,로마 숫자
+2617,구슬 찾기
 2667,단지번호붙이기
-2716,원숭이매달기
+2716,원숭이 매달기
 2780,비밀번호
-2800,괄호제거
-2812,크게만들기
-2859,별관찰
-2877,4와7
-2885,초콜릿식사
-2915,로마숫자재배치
-2938,3으로나누어떨어지지않는배열
-2961,도영이가만든맛있는음식
+2800,괄호 제거
+2859,별 관찰
+2877,4와 7
+2885,초콜릿 식사
+2915,로마 숫자 재배치
+2938,3으로 나누어 떨어지지 않는 배열
+2961,도영이가 만든 맛있는 음식
 2981,검문
-3000,직각삼각형
-3005,크로스워드퍼즐쳐다보기
+3000,직각 삼각형
+3005,크로스워드 퍼즐 쳐다보기
 3010,페그
 3019,테트리스
 3092,TRAVA
 3257,발코딩
 3258,컴포트
-3372,보드점프
+3372,보드 점프
 3483,Piggy-Bank
-3896,소수사이수열
-3933,라그랑주의네제곱수정리
-4046,DecompressinginaGIF
-4190,ExactChange
-4191,Dominos2
-4347,TicTacToe
+3896,소수 사이 수열
+3933,라그랑주의 네 제곱수 정리
+4046,Decompressing in a GIF
+4190,Exact Change
+4191,Dominos 2
+4347,Tic Tac Toe
 4379,나누기
 4395,Steps
-4531,VerdisQuo
-4563,리벤지오브피타고라스
-4573,PizzaPricing
-4677,OilDeposits
-4883,삼각그래프
-4889,안정적인문자열
-4900,7더하기
-4963,섬의개수
-4970,디지털회로개론
-5006,HorrorList
-5021,왕위계승
-5033,MoneyMatters
-5069,미로에갇힌상근
-5132,ExoticFoods
-5376,소수를분수로
+4531,Verdis Quo
+4563,리벤지 오브 피타고라스
+4573,Pizza Pricing
+4677,Oil Deposits
+4781,사탕 가게
+4883,삼각 그래프
+4889,안정적인 문자열
+4900,7 더하기
+4963,섬의 개수
+4970,디지털 회로 개론
+5006,Horror List
+5021,왕위 계승
+5033,Money Matters
+5069,미로에 갇힌 상근
+5132,Exotic Foods
+5376,소수를 분수로
 5538,JJOOII
 5546,파스타
 5547,일루미네이션
+5556,타일
 5567,결혼식
 5590,船旅
-5624,좋은수
-5639,이진검색트리
+5624,좋은 수
+5639,이진 검색 트리
 5788,Supermarket
-5827,What'sUpWithGravity
-5848,MessageRelay
-5864,WifiSetup
-5875,오타
+5827,What's Up With Gravity
+5848,Message Relay
+5864,Wifi Setup
 5911,선물
-5912,HaybaleStacking
-5946,TheTroughGame
+5912,Haybale Stacking
+5946,The Trough Game
 5953,Profits
-5958,SpaceExploration
-5986,3DSpaceExploration
-6005,CowPinball
-6031,FeedingTime
-6059,PastureWalking
-6064,카잉달력
-6067,GuardingtheFarm
-6080,BadGrass
+5958,Space Exploration
+5986,3D Space Exploration
+6005,Cow Pinball
+6031,Feeding Time
+6059,Pasture Walking
+6064,카잉 달력
+6067,Guarding the Farm
+6080,Bad Grass
 6118,숨바꼭질
-6125,TreasureCave
-6129,ObstacleCourse
-6135,CowHurdles
-6182,RoadsAroundTheFarm
-6188,ClearColdWater
+6125,Treasure Cave
+6129,Obstacle Course
+6135,Cow Hurdles
+6182,Roads Around The Farm
+6188,Clear Cold Water
 6189,Munching
-6191,CowsonSkates
-6207,CowPicnic
-6228,CowYahtzee
+6191,Cows on Skates
+6207,Cow Picnic
+6228,Cow Yahtzee
 6324,URLs
-6374,TotheMax
-6382,N-CredibleMazes
+6374,To the Max
+6382,N-Credible Mazes
 6383,SPF
-6422,GettingChorded
-6478,MessageRouting
-6506,엘도라도
-6554,PolygonProgrammingwithEase
+6422,Getting Chorded
+6478,Message Routing
+6506,엘 도라도
+6554,Polygon Programming with Ease
 6581,HTML
-6588,골드바흐의추측
-6589,HeavyCargo
-6601,KnightMoves
-6676,Inglish-NumberTranslator
-6716,CollectingBeepers
-6718,Goldbach’sconjecture
-7005,StackingCubes
-7490,0만들기
-7507,올림픽게임
-7562,나이트의이동
+6588,골드바흐의 추측
+6589,Heavy Cargo
+6601,Knight Moves
+6676,Inglish-Number Translator
+6716,Collecting Beepers
+6718,Goldbach’s conjecture
+7005,Stacking Cubes
+7490,0 만들기
+7507,올림픽 게임
+7562,나이트의 이동
 7569,토마토
 7576,토마토
-7639,CountingPixels
-7827,TransitiveClosure
-7869,두원
-7908,WillItStop?
+7639,Counting Pixels
+7827,Transitive Closure
+7869,두 원
+7908,Will It Stop?
 8030,Intervals
 8050,Lollobrigida
 8094,Canoes
 8110,Trees
-8312,Rectangles2
+8312,Rectangles 2
 8976,LAGNO
+9009,피보나치
 9011,순서
-9020,골드바흐의추측
+9020,골드바흐의 추측
 9057,ACM-UCPC
 9084,동전
-9097,QuadTrees
-9098,TheSuspects
-9205,맥주마시면서걸어가기
-9263,RussianDolls
-9343,랜덤걷기
+9097,Quad Trees
+9098,The Suspects
+9205,맥주 마시면서 걸어가기
+9263,Russian Dolls
+9343,랜덤 걷기
 9364,Calculator
 9421,소수상근수
-9472,알고리즘기말고사
-9490,DecimalRepresentation
-9518,로마카톨릭미사
+9472,알고리즘 기말고사
+9490,Decimal Representation
+9518,로마 카톨릭 미사
 9519,졸려
 9540,Draughts
 9553,양궁
-9555,대회장소준비
-9573,CombinationLock
-9599,EqualSumSets
-9658,돌게임4
-9734,순환소수
-9764,서로다른자연수의합
-9956,ReversingWords
-9993,MirrorField
-10023,MoooMoo
-10164,격자상의경로
-10252,그리드그래프
+9555,대회 장소 준비
+9573,Combination Lock
+9599,Equal Sum Sets
+9658,돌 게임 4
+9734,순환 소수
+9764,서로 다른 자연수의 합
+9956,Reversing Words
+9993,Mirror Field
+10023,Mooo Moo
+10164,격자상의 경로
+10252,그리드 그래프
 10274,Equator
-10421,수식완성하기
-10424,알고리즘기말고사
-10425,피보나치인버스
-10436,무한유리수트리
-10441,PreorderTraversals
-10451,순열사이클
-10476,좁은미술전시관
+10421,수식 완성하기
+10424,알고리즘 기말고사
+10425,피보나치 인버스
+10436,무한 유리수 트리
+10441,Preorder Traversals
+10451,순열 사이클
+10476,좁은 미술전시관
 10478,단위
-10496,Loopytransit
+10496,Loopy transit
 10571,다이아몬드
-10713,기차여행
-10728,XOR삼형제1
+10713,기차 여행
+10728,XOR삼형제 1
 10739,KRIZA
-10748,CowHopscotch
+10748,Cow Hopscotch
 10827,a^b
 10835,카드게임
-10844,쉬운계단수
-10879,Speakyourmind!
-10917,Yourlife
-10980,SIMPLEARITHMETICS
-11047,동전0
+10844,쉬운 계단 수
+10879,Speak your mind!
+10917,Your life
+10975,데크 소트 2
+10980,SIMPLE ARITHMETICS
+11047,동전 0
 11048,이동하기
-11051,이항계수2
-11052,카드구매하기
-11057,오르막수
+11051,이항 계수 2
+11052,카드 구매하기
+11057,오르막 수
 11058,크리보드
 11067,모노톤길
-11123,양한마리...양두마리...
-11181,Base-2Palindromes
+11123,양 한마리... 양 두마리...
+11181,Base-2 Palindromes
 11243,OPS
-11277,2-SAT-1
-11286,절댓값힙
-11387,님무기가좀나쁘시네여
-11403,경로찾기
+11277,2-SAT - 1
+11286,절댓값 힙
+11387,님 무기가 좀 나쁘시네여
+11403,경로 찾기
 11423,Primes
-11497,통나무건너뛰기
-11509,풍선맞추기
-11565,바이너리게임
-11568,민균이의계략
+11497,통나무 건너뛰기
+11509,풍선 맞추기
+11565,바이너리 게임
+11568,민균이의 계략
 11581,구호물자
 11588,GEPPETTO
-11660,구간합구하기5
-11662,민호와강호
-11761,ShufflingAlong
-11805,SpecialChristmasTree
-11819,TheShortestdoesnotMeantheSimplest
-11968,HighCardWins
-12007,FieldReduction(Bronze)
-12026,BOJ거리
-12075,GoogolString(Large)
-12101,1,2,3더하기2
-12177,DrearyDesign(Large2)
-12181,Googlander(Large)
-12355,OceanView(Large)
-12356,ZombieSmash(Small)
-12529,ExtremeEscalatorPogo(Small)
-12538,ClosingtheLoop(Large)
-12660,WelcometoCodeJam(Large)
-12679,MixingBowls(Small)
-12692,Millionaire(Large)
-12697,Portal(Small)
-12726,Milkshakes(Large)
-12792,주작주주작
-12842,튀김소보루
-12849,본대산책
-12852,1로만들기2
-12891,DNA비밀번호
+11660,구간 합 구하기 5
+11662,민호와 강호
+11761,Shuffling Along
+11805,Special Christmas Tree
+11819,The Shortest does not Mean the Simplest
+11968,High Card Wins
+12007,Field Reduction (Bronze)
+12026,BOJ 거리
+12075,Googol String (Large)
+12101,1, 2, 3 더하기 2
+12177,Dreary Design (Large2)
+12181,Googlander (Large)
+12355,Ocean View (Large)
+12356,Zombie Smash (Small)
+12529,Extreme Escalator Pogo (Small)
+12538,Closing the Loop (Large)
+12660,Welcome to Code Jam (Large)
+12679,Mixing Bowls (Small)
+12692,Millionaire (Large)
+12697,Portal (Small)
+12726,Milkshakes (Large)
+12792,주작 주 주작
+12842,튀김 소보루
+12849,본대 산책
+12852,1로 만들기 2
+12891,DNA 비밀번호
 12968,방문
-13046,SecretCode
-13076,Distinctrationalnumbers
-13156,SellingCPUs
+13046,Secret Code
+13076,Distinct rational numbers
+13156,Selling CPUs
 13239,Combinations
 13257,생태학
 13265,색칠하기
 13274,수열
 13294,역팩토리얼
-13295,NinePacks
-13302,리조트
+13295,Nine Packs
 13335,트럭
-13700,완전범죄
-13737,TheCalculusofAda
+13700,완전 범죄
+13737,The Calculus of Ada
 13741,Alphabet
-13754,MismatchedSocks
+13754,Mismatched Socks
 13903,출근
 13910,개업
-14011,SmallPhDRestaurant
+14011,Small PhD Restaurant
 14066,Kocka
 14145,Žetva
-14171,CitiesandStates
-14233,악덕사장
-14241,슬라임합치기
-14254,비밀번호변경
-14376,TheLastWord(Large)
-14401,악덕나라
-14494,다이나믹이뭐예요?
-14496,그대,그머가되어
-14532,ModernArt(Bronze)
+14171,Cities and States
+14233,악덕 사장
+14241,슬라임 합치기
+14254,비밀번호 변경
+14376,The Last Word (Large)
+14401,악덕 나라
+14494,다이나믹이 뭐예요?
+14496,그대, 그머가 되어
+14532,Modern Art (Bronze)
 14585,사수빈탕
-14596,Quilting(Small)
-14609,구분구적법(Large)
-14629,숫자조각
-14650,걷다보니신천역삼(Small)
-14671,영정이의청소
-14722,우유도시
-14731,謎紛芥索紀(Large)
-14805,StableNeigh-bors(Small)
-14807,PonyExpress(Small)
-14809,AmpleSyrup(Small)
-14817,RollerCoasterScheduling(Small)
-14856,조금똑똑한뢰벗과조금잘생긴사냐
-14888,연산자끼워넣기
+14596,Quilting (Small)
+14609,구분구적법 (Large)
+14629,숫자 조각
+14650,걷다보니 신천역 삼 (Small)
+14671,영정이의 청소
+14722,우유 도시
+14731,謎紛芥索紀 (Large)
+14805,Stable Neigh-bors (Small)
+14807,Pony Express (Small)
+14809,Ample Syrup (Small)
+14817,Roller Coaster Scheduling (Small)
+14856,조금 똑똑한 뢰벗과 조금 잘생긴 사냐
+14888,연산자 끼워넣기
 14891,톱니바퀴
-14921,용액합성하기
-14953,GameMap
+14921,용액 합성하기
+14953,Game Map
 14964,Tetris
-15003,AmsterdamDistance
-15092,Sheba’sAmoebas
-15108,StraightShot
-15119,PurpleRain
-15143,AtomicMass
-15240,Paintbucket
+15003,Amsterdam Distance
+15092,Sheba’s Amoebas
+15108,Straight Shot
+15119,Purple Rain
+15143,Atomic Mass
+15240,Paint bucket
 15242,Knight
-15258,AssignmentAlgorithm
-15276,PalindromicPassword
+15258,Assignment Algorithm
+15276,Palindromic Password
 15368,Birokracija
-15482,한글LCS
-15519,TournamentChart
-15558,점프게임
-15565,귀여운라이언
-15566,개구리1
+15482,한글 LCS
+15519,Tournament Chart
+15558,점프 게임
+15565,귀여운 라이언
+15566,개구리 1
 15625,Paprike
-15645,내려가기2
+15645,내려가기 2
 15671,오델로
 15752,Hoofball
-15753,TamingtheHerd
-15787,기차가어둠을헤치고은하수를
-15805,트리나라관광가이드
+15753,Taming the Herd
+15787,기차가 어둠을 헤치고 은하수를
+15805,트리 나라 관광 가이드
 15809,전국시대
-15810,풍선공장
-15834,Eli'sCuriousMind
-15900,나무탈출
-15916,가희는그래플러야!!
+15810,풍선 공장
+15834,Eli's Curious Mind
+15900,나무 탈출
+15916,가희는 그래플러야!!
 15954,인형들
-15973,두박스
-15989,1,2,3더하기4
-15991,1,2,3더하기6
-15992,1,2,3더하기7
-15993,1,2,3더하기8
-16069,HyperIlluminati
-16155,업힐과가희
-16192,VoronoiDiagramReturns
-16194,카드구매하기2
-16195,1,2,3더하기9
-16198,에너지모으기
-16210,DSHSBank
-16270,SmallNumbers
-16386,UrbanDesign
-16424,RepeatingGoldbachs
-16432,떡장수와호랑이
-16456,하와와대학생쨩하와이로가는거시와요~
-16501,만족도점수
-16507,어두운건무서워
+15973,두 박스
+15989,1, 2, 3 더하기 4
+15991,1, 2, 3 더하기 6
+15992,1, 2, 3 더하기 7
+15993,1, 2, 3 더하기 8
+16069,Hyper Illuminati
+16155,업힐과 가희
+16192,Voronoi Diagram Returns
+16194,카드 구매하기 2
+16195,1, 2, 3 더하기 9
+16198,에너지 모으기
+16210,DSHS Bank
+16270,Small Numbers
+16386,Urban Design
+16424,Repeating Goldbachs
+16432,떡장수와 호랑이
+16456,하와와 대학생쨩 하와이로 가는 거시와요~
+16501,만족도 점수
+16507,어두운 건 무서워
 16509,장군
-16510,PredictableQueue
-16564,히오스프로게이머
-16568,엔비스카의영혼
-16688,ContestSetting
-16696,Clockwork||ange
-16720,BAZERUNNER
-16771,BackandForth
+16510,Predictable Queue
+16564,히오스 프로게이머
+16568,엔비스카의 영혼
+16688,Contest Setting
+16696,Clockwork ||ange
+16720,BAZE RUNNER
+16771,Back and Forth
 16918,봄버맨
-16923,다음다양한단어
-16943,숫자재배치
-16948,데스나이트
-16960,스위치와램프
-16970,정수좌표의개수
-17014,PrettyAveragePrimes
+16923,다음 다양한 단어
+16943,숫자 재배치
+16948,데스 나이트
+16953,A → B
+16960,스위치와 램프
+16970,정수 좌표의 개수
+17014,Pretty Average Primes
 17074,정렬
-17085,십자가2개놓기
-17087,숨바꼭질6
-17197,FencePlanning
-17213,과일서리
-17214,다항함수의적분
-17225,세훈이의선물가게
-17259,선물이넘쳐흘러
-17271,리그오브레전설(Small)
+17085,십자가 2개 놓기
+17087,숨바꼭질 6
+17197,Fence Planning
+17199,Milk Factory
+17213,과일 서리
+17214,다항 함수의 적분
+17225,세훈이의 선물가게
+17259,선물이 넘쳐흘러
+17271,리그 오브 레전설 (Small)
 17391,무한부스터
-17392,우울한방학
+17392,우울한 방학
 17430,가로등
 17609,회문
 17610,양팔저울
-17615,볼모으기
-17839,BabaisRabbit
-17875,FantasyDraft
+17615,볼 모으기
+17839,Baba is Rabbit
+17875,Fantasy Draft
 17939,Gazzzua
-18002,BalancedAnimals
-18022,EenyMeeny
-18054,AssessingGenomes
-18112,이진수게임
-18114,블랙프라이데이
-18230,2xN예쁜타일링
-18233,러버덕을사랑하는모임
-18290,NM과K(1)
-18291,비요뜨의징검다리건너기
-18404,현명한나이트
-18405,경쟁적전염
+18002,Balanced Animals
+18022,Eeny Meeny
+18054,Assessing Genomes
+18112,이진수 게임
+18114,블랙 프라이데이
+18230,2xN 예쁜 타일링
+18233,러버덕을 사랑하는 모임
+18290,NM과 K (1)
+18291,비요뜨의 징검다리 건너기
+18404,현명한 나이트
+18405,경쟁적 전염
 18419,桁和
 18422,Emacs
-18428,감시피하기
-18430,무기공학
-18705,BaklavaTray
-18869,멀티버스Ⅱ
+18428,감시 피하기
+18430,무기 공학
+18705,Baklava Tray
+18869,멀티버스 Ⅱ
+19157,Even Path
+19219,Balls of Buma
+19222,Elections

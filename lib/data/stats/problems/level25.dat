@@ -1,168 +1,167 @@
-1763,트리색칠
+1763,트리 색칠
 1842,게임하기
 2489,응급센터
-2850,배관공김선영
-3169,테트리스같은게임
-3410,Farmandfactory
-3424,UnchangedPicture
-3520,CactusRevolution
-3527,JungleOutpost
-4203,AsteroidRangers
-4210,로봇청소기
-4211,금고회사
-4467,BuildingZombieFences
-4795,TheWormintheApple
+2850,배관공 김선영
+3169,테트리스 같은 게임
+3410,Farm and factory
+3424,Unchanged Picture
+3520,Cactus Revolution
+3527,Jungle Outpost
+4203,Asteroid Rangers
+4210,로봇 청소기
+4211,금고 회사
+4467,Building Zombie Fences
+4795,The Worm in the Apple
 5469,Fish
-5813,이상적인도시
+5813,이상적인 도시
 6090,Casting
 7610,Synchronization
-7651,G-AvoidingSequence
-7890,가까운점찾기
-8169,소화기설치
+7651,G-Avoiding Sequence
+7890,가까운 점 찾기
 8182,Island
-8232,LevelingGround
-8236,PriceList
+8232,Leveling Ground
+8236,Price List
 8881,Harvard
-9583,EasyGeometry
-9604,DirectionalResemblance
-9990,AirplaneBoarding
-10014,TravelingSagaProblem
-10056,MetalProcessingPlant
-10062,은기의DNA분자
+9583,Easy Geometry
+9604,Directional Resemblance
+9990,Airplane Boarding
+10014,Traveling Saga Problem
+10056,Metal Processing Plant
+10062,은기의 DNA 분자
 10064,GRAD
 10075,친구
 10128,Supercomputer
 10350,은행
-10518,AroundtheTrack
-10726,빛의왕과거울의미로2
-10734,\(I\)교신자2
+10518,Around the Track
+10726,빛의 왕과 거울의 미로 2
+10734,\(I\)교신자 2
 10785,Asteroids
 10794,Tours
 10862,DOSTAVA
 11064,Diameter
-11071,Shelob’sLair
-11075,WhoDoYouThinkYouAre?
+11071,Shelob’s Lair
 11708,Casino
-11738,DistanceonTriangulation
+11738,Distance on Triangulation
+11742,Hypercube
 11856,Shymbulak
 12010,Landscaping
-12126,MerlinQA(Large)
-12670,TheYearofCodeJam(Large)
-12748,색칠공부(Large)
-12773,RoadTimes
+12126,Merlin QA (Large)
+12670,The Year of Code Jam (Large)
+12748,색칠 공부 (Large)
+12773,Road Times
 12818,Investigation
-13122,별빛이내린다
+13122,별빛이 내린다
 13177,로봇
 13178,목공
-13461,AirportLogistics
-13515,트리와쿼리6
-13539,트리와쿼리11
+13461,Airport Logistics
+13515,트리와 쿼리 6
+13539,트리와 쿼리 11
 13722,Burza
 13725,RNG
-13727,5차원구사과초콜릿
-13756,완벽한구사과의집합
+13727,5차원 구사과 초콜릿
+13756,완벽한 구사과의 집합
 13944,Meksikanac
-13988,비무장지대
-13992,DelightforaCat
-13995,GameonGraph
-14339,Integeregex(Large)
-14343,GalleryofPillars(Large)
-14352,RebelAgainstTheEmpire(Large)
-14507,StarsinaCan
-14511,IncrementalDoubleFreeStrings
-14513,MaximumColorClique
-14516,UnbalancedParentheses
-14523,SwitchGrass
-14643,TarotShamBoast
-14737,Dev,PleaseAddThis!
-14747,CycleMean
-14880,태와도토리의초콜릿나누기
-14899,수열과쿼리19
+13992,Delight for a Cat
+13995,Game on Graph
+14339,Integeregex (Large)
+14343,Gallery of Pillars (Large)
+14352,Rebel Against The Empire (Large)
+14507,Stars in a Can
+14511,Incremental Double Free Strings
+14513,Maximum Color Clique
+14516,Unbalanced Parentheses
+14523,Switch Grass
+14643,Tarot Sham Boast
+14737,Dev, Please Add This!
+14747,Cycle Mean
+14880,태와 도토리의 초콜릿 나누기
+14899,수열과 쿼리 19
 15086,Craters
-15266,IntrinsicInterval
-15308,비밀요원
-15332,MakingPerimeteroftheConvexHullShortest
-15389,Imelda’sShoppingSpree
+15266,Intrinsic Interval
+15308,비밀 요원
+15332,Making Perimeter of the Convex Hull Shortest
+15389,Imelda’s Shopping Spree
 15418,Burglary
-15527,FarmVillage
-15766,NewHome
-15851,NationalDisaster:TwoTowers
-15864,AlternatingCurrent
-15930,BabySeokhwan
-16040,CutItOut!
-16049,WinterFestival
-16574,RotatingGears
-16577,ArtilleriesandDefensiveWalls
-16629,LCMTree
-16644,EasyProblem
+15527,Farm Village
+15766,New Home
+15851,National Disaster: Two Towers
+15864,Alternating Current
+15930,Baby Seokhwan
+16040,Cut It Out!
+16049,Winter Festival
+16307,Driver Disagreement
+16574,Rotating Gears
+16577,Artilleries and Defensive Walls
+16629,LCM Tree
+16644,Easy Problem
 16779,JOIRIS
-16804,RotationGame
-16809,EnclosePoints
-16845,SubstringPairs
-16966,구간과쿼리2
-17002,RocketPoweredHovercraft
-17152,ChecksPostFacto
-17158,KareltheRobot
-17171,JealousTeachers
-17312,TicketPurchase
-17318,HighwayCycling
-17342,CountingSpanningTrees
-17346,MaintainingaSequence
-17348,국제옥토끼기구
+16804,Rotation Game
+16809,Enclose Points
+16845,Substring Pairs
+16966,구간과 쿼리 2
+17002,Rocket Powered Hovercraft
+17152,Checks Post Facto
+17158,Karel the Robot
+17171,Jealous Teachers
+17312,Ticket Purchase
+17318,Highway Cycling
+17342,Counting Spanning Trees
+17346,Maintaining a Sequence
+17348,국제 옥토끼 기구
 17439,꽃집
-17460,CactusDeterminant
-17462,MSTandRectangles
-17476,수열과쿼리28
-17510,BiggerSokoban40k
-17516,MinimumDiameterSpanningTree
+17460,Cactus Determinant
+17462,MST and Rectangles
+17476,수열과 쿼리 28
+17510,Bigger Sokoban 40k
+17516,Minimum Diameter Spanning Tree
 17635,다리
-17642,DynamicDiameter
-17671,두안테나
-17672,두요리
-17701,Abduction2
-17703,Dragon2
+17642,Dynamic Diameter
+17672,두 요리
+17701,Abduction 2
+17703,Dragon 2
 17706,Solitaire
 17708,Sandwich
-17739,Constellation2
+17739,Constellation 2
 17749,Cake
-17866,GerrymanderingCriterion
-17972,NetworkVulnerability
+17866,Gerrymandering Criterion
+17972,Network Vulnerability
 18072,Foreach
-18073,GolfTime
+18073,Golf Time
 18090,Kitesurfing
-18168,GamewithPolynomials2
-18261,TreeDepth
-18342,순례의시작
+18168,Game with Polynomials 2
+18261,Tree Depth
+18342,순례의 시작
 18343,신탁
-18346,업과격의그래프
-18350,순례의끝
+18346,업과 격의 그래프
+18350,순례의 끝
 18450,Dates
-18451,ExpectedValue
-18453,GraphCounting
-18454,Hall’sTheorem
-18458,AirplaneCliques
+18451,Expected Value
+18453,Graph Counting
+18454,Hall’s Theorem
+18458,Airplane Cliques
 18471,Determinant
-18488,Umnik’sAlgorithm
-18497,ClosestPairAlgorithm
-18515,UnfairCardDeck
-18536,TritwiseMex
+18488,Um nik’s Algorithm
+18497,Closest Pair Algorithm
+18515,Unfair Card Deck
+18536,Tritwise Mex
 18549,Quoridor
-18557,AlwaysOnline
+18557,Always Online
 18560,Daylight
 18562,Fireflies
-18572,DataStructureProblem
-18578,JimpNumbers
-18586,SaltyFish
-18596,MonsterHunter
-18702,ArrayQueries
+18572,Data Structure Problem
+18578,Jimp Numbers
+18586,Salty Fish
+18702,Array Queries
 18721,Clique
 18745,Div
 18746,Exp
 18748,Grp
-18759,GeometryPTSD
-18773,Delightful(Hard)
-18805,TreeandEasyQueries
-18831,문제를푸는문제
+18759,Geometry PTSD
+18773,Delightful (Hard)
+18805,Tree and Easy Queries
+18831,문제를 푸는 문제
 18846,Harvest
-18861,가슴속에무엇인가
-18941,평면그래프와게임
+18861,가슴 속에 무엇인가
+18906,Minimal Variance Tree
+18941,평면그래프와 게임
+18955,Determinant of a Graph
